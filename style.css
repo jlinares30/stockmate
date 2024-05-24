@@ -29,6 +29,9 @@ header {
     background-color: #3b1b2a;
     color: white;
     padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 header .logo {
     /* float: left; */
@@ -38,6 +41,7 @@ header .logo {
 }
 header img{
     width: 60px;
+    border-radius: 50%;
 }
 header nav {
 
@@ -83,7 +87,7 @@ header nav ul li a.cta {
     text-align: center;
     margin: auto 0;
     padding: 20%;
-    height: 850px;
+    height: 920px;
     color: #f4f4f4;
 }
 
@@ -143,7 +147,7 @@ header nav ul li a.cta {
 }
 
 .product-overview {
-    background-color: #e5a65f;
+    background-image: linear-gradient(to bottom, #e5a65f , #885b27);
     /* height: 850px; */
 }
 
@@ -216,7 +220,7 @@ header nav ul li a.cta {
 }
 
 .how-it-works {
-    background-color: #3b1b2a;
+    background-image: linear-gradient(to bottom, #3b1b2a , rgb(10, 10, 10));
     padding: 40px 0;
     position: relative;
 
@@ -300,7 +304,7 @@ header nav ul li a.cta {
 }
 
 .testimonials {
-    background-color: #e5a65f;
+    background-image: linear-gradient(to bottom, #e5a65f , #885b27);
     padding: 40px 0;
 }
 
@@ -457,6 +461,8 @@ header nav ul li a.cta {
 }
 .pricing{
     position: relative;
+    background-image: linear-gradient(to bottom, #3b1b2a , rgb(10, 10, 10));
+
 }
 .pricing .plans {
     display: flex;
@@ -588,7 +594,7 @@ header nav ul li a.cta {
 }
 
 .faq {
-    background-color: #e5a65f;
+    background-image: linear-gradient(to bottom, #e5a65f , #885b27);
     padding: 40px 0;
     z-index: 1;
 }
@@ -635,7 +641,7 @@ header nav ul li a.cta {
 }
 /* footer */
 footer {
-    background: #333;
+    background: #3b1b2a;
     color: white;
     padding: 20px 0;
     text-align: center;
